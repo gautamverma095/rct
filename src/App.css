@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap");
+
+.App {
+  text-align: center;
+}
+
+.form-wrapper {
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: fit-content;
+  margin: auto;
+  padding: 20px;
+}
+
+.name-wrapper,
+.gender-wrapper,
+.role-wrapper,
+.marital-status-wrapper {
+  display: flex;
+  margin: 0.5rem 0;
+  width: 500px;
+}
+
+.name-wrapper label,
+.gender-wrapper label,
+.role-wrapper label,
+.marital-status-wrapper legend {
+  width: 200px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+.name-wrapper input,
+.gender-wrapper select,
+.role-wrapper select {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  width: 300px;
+}
+
+.marital-status-wrapper div {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: white;
+  cursor: pointer;
+  width: 100px;
+  padding: 5px 8px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: rgba(8, 249, 0, 0.5);
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+margin: auto;
+margin-top: 10px;}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
